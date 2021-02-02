@@ -23,8 +23,7 @@ listaTemas: Tema[]
     if(environment.token == ''){
       this.router.navigate(['/entrar'])
       }
-
-      this.findAllTemas()
+     this.findAllTemas()
   }
 
 findAllTemas(){
